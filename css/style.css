@@ -140,7 +140,6 @@ body {
 	position: absolute;
 	right: 0;
 	top: 5px;
-	cursor: pointer;
 }
 
 .about__achievement-title {
@@ -463,4 +462,42 @@ body {
 .partners__box-text span {
 	font-weight: 700;
 	color: #f2a531;
+}
+
+.blog {
+	margin-bottom: 80px;
+}
+
+.blog__wrapper {
+	background-color: #f4f4e7;
+	border-radius: 20px;
+	padding: 100px 0;
+}
+
+.blog__title {
+	margin-bottom: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	font-family: 'WorkSans-Medium', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.blog__items {
+	display: grid;
+	grid-template-columns: 580px auto;
+	grid-template-rows: 1fr 1fr;
+	gap: 44px;
+}
+
+.blog__item-big {
+	grid-row: 1/-1;
+}
+
+.blog__item-small {
+}
+
+.blog__item-info {
+	
 }
