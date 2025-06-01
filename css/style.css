@@ -134,12 +134,13 @@ body {
 }
 
 .about__achievement-arrow {
-	border: none;
+	all: unset;
 	padding: 0;
 	border-color: transparent;
 	position: absolute;
 	right: 0;
 	top: 5px;
+	cursor: pointer;
 }
 
 .about__achievement-title {
