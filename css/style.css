@@ -48,6 +48,7 @@ body {
 
 .menu__btn {
 	display: none;
+	cursor: pointer;
 }
 
 .container {
